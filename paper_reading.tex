@@ -1,0 +1,167 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{float}
+\begin{document}
+\title{Paper Reading}
+\author{Eazine Huang}
+\date{\today}
+\maketitle
+
+\part{Real-time fluorescence and deformability cytometry}
+
+The throughput of cell mechanical characterization has recently approached that of conventional flow cytometers. However, this very sensitive, label-free approach still lacks the specificity of molecular markers. Here we developed an approach that combines real-time 1D-imaging fluorescence and deformability cytometry in one instrument (RT-FDC), thus opening many new research avenues. We demonstrated its utility by using subcellular fluorescence localization to identify mitotic cells and test for mechanical changes in those cells in an RNA interference screen.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=3.54in,height=4in]{1.jpg}
+\end{figure}
+
+1.To test whether cell mechanic can be used as a phenotypic marker for human CD34+ HSPCs. In the narrow constriction zone, cells deform as a result of hydrodynamic interaction. On the basis of the fluorescence intensity, classify the cells into CD34+ and CD34-. The deformation versus area is recorded to copmare CD34+ cells and CD34- cells.
+Deformation=1-2sqrt(pi*Area)/Perimeter
+
+2.The plot of determition versus area for CD34- cells shows more spread than that for CD34+.
+It is a way to sort the cells based on the determition.
+
+
+3.HeLa cells could be separated into metaphase and anaphase populations on the basis of the presence of single and double peaks of mCherry fluorescence signal.
+
+\emph{Innovations}: combine the sensitivity of the measured cell mechanics with molecular specificity of fluorescent probes.
+
+\part{Cell-free extract based optimization of biomolecular circuits with droplet microfluidics}
+
+Engineering an efficient biomolecular circuit often requires time-consuming iterations of optimization. Cell-free protein expression systems allow rapid testing of biocircuits in vitro, speeding the design–build–test cycle of synthetic biology. In this paper, we combine this with droplet microfluidics to densely scan a transcription–translation biocircuit space. Our system assays millions of parameter combinations per hour, providing a detailed map of function. The ability to comprehensively map biocircuit parameter spaces allows accurate modeling to predict circuit function and identify optimal circuits and conditions. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6in,height=4in]{2.jpg}
+\end{figure}
+
+1.What is biocircuit? 
+
+Different biomodules interact with each other to decide protein expression.
+In this paper, circuit is IFFL(incoherent feedforward loop), refered to paper 12. It is the biological theorey basis for this paper. 
+
+
+2.This paper combines cell-free protein expression with droplet microfluidics for ultrahigh-throughput scanning of transcription–translation based biomolecular circuits.
+
+
+3.Use pressure controller system  to design different period sinusoidal functions in order to independetly modulate each inlet and change the composition of droplets. The droplet contents and volumes are observed by  fluorescent detection in three channels.
+The key point is that droplet volume should remain constant. 
+Each droplet volume is detected by time duration.
+
+
+\part{Optofluidic marine phosphate detection with enhanced absorption using a Fabry–Pérot resonator}
+
+Real-time detection of phosphate has significant meaning in marine environmental monitoring and fore- casting the occurrence of harmful algal blooms. Conventional monitoring instruments are dependent on artificial sampling and laboratory analysis. They have various shortcomings for real-time applications be- cause of the large equipment size and high production cost, with low target selectivity and the requirement of time-consuming procedures to obtain the detection results. We propose an optofluidic miniaturized analysis chip combined with micro-resonators to achieve real-time phosphate detection. The quantitative water-soluble components are controlled by the flow rate of the phosphate solution, chromogenic agent A (ascorbic acid solution) and chromogenic agent B (12\% ammonium molybdate solution, 80\% concentrated sulfuric acid and 8\% antimony potassium tartrate solution with a volume ratio of 80: 18: 2). Subse- quently, an on-chip Fabry–Pérot microcavity is formed with a pair of aligned coated fiber facets. With the help of optical feedback, the absorption of phosphate can be enhanced, which can avoid the disadvan- tages of the macroscale absorption cells in traditional instruments. It can also overcome the difficulties of traditional instruments in terms of size, parallel processing of numerous samples and real-time monitoring, etc. The absorption cell length is shortened to 300 μm with a detection limit of 0.1 μmol L−1. The time re- quired for detection is shortened from20min to 6 seconds. Predictably, microsensors based on optofluidic technology will have potential in the field of marine environmental monitoring.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=3.54in,height=4in]{3.jpg}
+\end{figure}
+
+1.How to form FP cavity?
+
+The facts of the fibers are coated with 40 and 60 nm Au using an electron beam evaporator. The reflectic indexs of the two facts are 65\% and 74\%.
+
+
+2.How to achieve strict alignment?
+
+There is an iron baseplate and a magnetic briquette. In the iron baseplate, there is a groove that matches the fiber. First, the plated fibers are placed in the groove of the fiber aligner. Then, we move the baseplate carefully to form the fibers and the reserved channels are aligned under a microscope.
+
+
+3.Use microfluidic chip to mix phosphate solution and chromogenic agent. The theory is Beer-Lamber law. The method in this paper costs less time and has higher detection range which can be used to monitor marine environment.
+
+
+4.improvement:change the distance of the cavity or use other resonators such as ring resonators, distributed feedback resonators
+
+
+\part{A sharp-edge-based acoustofluidic chemical signal generator}
+
+Resolving the temporal dynamics of cell signaling pathways is essential for regulating numerous downstream functions, from gene expression to cellular responses. Mapping these signaling pathways requires the exposure of cells to time-varying chemical signals; these are difficult to generate and control over a wide temporal range. Herein, we present an acoustofluidic chemical signal generator based on a sharp-edge-based micromixing strategy. The device, simply by modulating the driving signals of an acoustic transducer including the ON/OFF switching frequency, actuation time and duty cycle, is capable of gener- ating both single-pulse and periodic chemical signals that are temporally controllable in terms of stimulation period, stimulation duration and duty cycle.We also demonstrate the device's applicability and versatility for cell signaling studies by probing the calcium (Ca2+) release dynamics of three different types of cells stimulated by ionomycin signals of different shapes. Upon short single-pulse ionomycin stimulation (∼100 ms) generated by our device, we discover that cells tend to dynamically adjust the intracellular level of Ca2+ through constantly releasing and accepting Ca2+ to the cytoplasm and from the extracellular environment, respectively. With advantages such as simple fabrication and operation, compact device design, and reliability and versatility, our device will enable decoding of the temporal characteristics of signaling dy- namics for various physiological processes.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=3.54in,height=4in]{4.jpg}
+\end{figure}
+
+1.Generate single pulse and periodic chemical signals with different period, duration and cycle  based on a sharp-edge-based micromixing strategy by modulating the driving signals of an acoustic transducer.
+
+
+Mix buffer and stimulant solution(FITC agent) with the generator. The fluorecent intense represents the signal generated by the transducer based on the sharp-edge structure. It is the rule to modulate the acoustic transducer.The driving frequency of 4.5 kHz and the driving voltage of 20 Vpp were used in all experiments.
+
+
+2.With this signal generator,study on the calcuim release dynamics of three different types of cells.
+
+
+3.The fluid is not continuous? 
+
+No! In the video, all the cells are in fixed position. The medium and stimulant are injected to the channel after the cells adhere to the bottom of the channel.  
+
+\part{Real-time detection and monitoring of the drug resistance of single myeloid leukemia cells by diffused total internal reflection}
+
+
+Real-time detection and monitoring of the drug resistance of single cells have important significance in clinical diagnosis and therapy. Traditional methods operate a number of times for each individual concen- tration, and innovation is required for the design of more simple and efficient manipulation platforms with necessary higher sensitivity. Here, we have developed a novel diffused total internal reflection (TIR) method to perform drug metabolism and cytotoxicity analysis of trapped myeloid leukemia cells. Molm-13 cells, a type of acute myeloid leukemia cell, were chosen and injected into the device and fittingly captured by cell traps. Differing from previous studies, a series of different concentrations of azelaic acid (AZA) drug could be used from 0 mM to 50 mM through convection and diffusion processes in a single chip, with each con- centration region featuring 50 cells, with a total of 549 cell trapping units. Thanks to the high sensitivity of the TIR method, only cells with the same drug concentration could be illuminated in the detection process. By adjusting the incident angle, we could exactly detect and monitor the drug resistance of the cells using different drug concentrations and the experimental resolution of the drug concentration was as small as 5 mM. Images of the membrane integrity and morphology of the cells in the bright field were measured and we also monitored the cell viabilities in the dark field over 2 hours. The effects of AZA on the Molm-13 cells were explored in different concentrations at the single cell level. Compared with the results of the tradi- tional MTT assay method, the experimental results are more simple and accurate. A cell death of 5\% at an AZA concentration of 5 mM was observed after 30 minutes, while a concentration of 40 mM corresponded to a 98\% cell death. The designed method in this study provides a novel toolkit to control and monitor drug resistance at the single cell level more easily with higher sensitivity and we believe it has significant potential application in single cell quality assessment and medicine analysis in clinical practice.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=3.54in,height=4in]{5.jpg}
+\end{figure}
+
+
+1.This microfluidic device is used to detect and monitor AZA drug resistance  of single Molm-13 cell with total internal reflection(TIR). Different concentrations of the AZA drug have a different refractive index and can be pumped at the same time. The cells trapped by the trapping structure can be detected by adjust the incident angle.
+
+2.Two layer photoresist. The height of the trapping struceture is lower than that of main channel.
+
+3.MTT is used to study the effect of AZA concentrations and time on cell viabilities compared to the experimental data. 
+
+
+\part{Multiparameter cell-tracking intrinsic cytometry for single-cell characterization}
+
+An abundance of label-free microfluidic techniques for measuring cell intrinsic markers exists, yet these techniques are seldom combined because of integration complexity such as restricted physical space and incompatible modes of operation. We introduce a multiparameter intrinsic cytometry approach for the characterization of single cells that combines ≥2 label-free measurement techniques onto the same platform and uses cell tracking to associate the measured properties to cells. Our proof-of-concept implementation can measure up to five intrinsic properties including size, deformability, and polarizability at three frequencies. Each measurement module along with the integrated platform were validated and eval- uated in the context of chemically induced changes in the actin cytoskeleton of cells. viSNE and machine learning classification were used to determine the orthogonality between and the contribution of the mea- sured intrinsic markers for cell classification.
+\begin{figure}[H]
+\centering
+\includegraphics[width=3.54in,height=4in]{6.jpg}
+\end{figure}
+
+1.deformability module design and analysis
+
+This measurement platform was introduced by Fletcher Group. Cells flow from the wide channel to the narrow channel. Different cells have different deformability. The key point is to detect the transmit time that the cells get through the region of interest(ROI). The higher deformability, the less transmit time. Use solutions to deal with cells to increase or decrease the defomability of cells. 
+
+2.size and polarizability module design and analysis
+
+The cells appear at a balance position with the fluid drag force and the negative DEP force. Cell polarizability is reported as the real part of the Re[CM]. It is relevant to the frequency of the electric field.
+
+3.According to visual interactive stochastic neighbor embedding(viSNE), there is no correlation to each other. Futhermore, other algorithms are used to analyze the experimental data. It is similar to viSNE. There is no doubt that I can not understand.
+
+4.The main advantage of this cytometry is that the platform can detect 5 parameters.
+The  field-of-review of the microscope with 5X objective is not entirely used.  
+
+\part{A linear concentration gradient generator based on multi-layered centrifugal microfluidics and its application in antimicrobial susceptibility testing}
+
+In almost any branch of chemistry or life sciences, it is often necessary to study the interaction between different components in a system by varying their respective concentrations in a systematic manner. Cur- rently, many procedures for generating a series of samples of different solute concentration levels are still done manually by dilution. To address this issue, we present herein a highly automated linear concentration gradient generator based on centrifugal microfluidics. The operation of this device is based on the use of multi-layered microfluidics in which individual fluidic samples to be mixed together are stored and metered in their respective layers before finally being transferred to a mixing chamber. To demonstrate the opera- tion of this scheme, we have used the device to conduct antimicrobial susceptibility testing (AST). Firstly, DI water, ampicillin solution and E. coli suspension were loaded into the chambers in different layers. As the device went through several rounds of spinning at different speeds, a series ofmetered dosages of ampicil- lin along a linear concentration gradient were introduced to the mixing chamber and mixed with E. coli au- tomatically. By monitoring the spectral absorbance of the suspensions, we were able to establish the mini- mum inhibitory concentration (MIC) value of ampicillin against E. coli. The process took about 3 hours to complete, and the experimental results showed a strong correlation with those obtained with the standard CLSI broth dilutionmethod. Clearly, the platform is useful for a wide range of applications such as drug discovery and personalised medicine, where concentration gradients are of concern.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=5in,height=4in]{7.jpg}
+\end{figure}
+
+1.How to build air vent?
+
+2.How to bond the PDMS layers?
+
+3.Three layers microfluidic device is used to generate linear gradient concentration. There are three inlets injecting different solutions to metering chambers with low rpm. With high rpm, solutions can break the air vents, inject to the volumes and mix with other solutions to change concentrations.
+
+\part{iPhone-imaged and cell-powered electrophoresis titration chip for the alkaline phosphatase assay in serum by the moving reaction boundary}
+
+As a vital enzyme, alkaline phosphatase (ALP) has great clinical significance in diagnoses of bone or liver cancer, bone metastases, rickets, and extrahepatic biliary obstruction. However, there is still no really porta- ble chip for the ALP assay in blood. Herein, a simple electrophoresis titration (ET) model was developed for ALP detection via a moving reaction boundary (MRB). In the model, ALP catalyzed the dephosphorylation of a 4-methylumbelliferyl phosphate disodium salt (4-MUP) substrate in the cathode well to 4-methylumbelliferone ([4-MU]−) with a negative charge and blue fluorescence under UV excitation. After the catalysis, an electric field was used between the cathode and the anode. Under the electric field, [4- MU]− moved into the channel and neutralized the acidic Tris-HCl buffer, resulting in the quenching of [4- MU]− and creating a MRB. The ET system just had an ET chip, a lithium cell, a UV LED and an iPhone used as a recorder, having no traditional expensive power supply and fluorescence detector. The relevant method was developed, and a series of experiments were conducted via the ET chip. The experiments showed: (i) a MRB could be formed between the [4-MU]− base and the acidic buffer, and the MRB motion had a linear relationship with the ALP activity, validating the ET model; (ii) the ET run was not impacted by many interferences, implying good selectivity; and (iii) the ET chip could be used for portable detection within 10 min, implying an on-site and rapid analysis. In addition, the ET method had a relatively good sen- sitivity (0.1 U L−1), linearity (V =0.033A +3.87, R2 = 0.9980), stability (RSD 2.4–6.8\%) and recoveries (101– 105\%). Finally, the ET method was successfully used for ALP assays in real serum samples. All the results implied that the developed method was simple, rapid and low-cost, and had potential for POCT clinical ALP assays.
+
+1.ALP catalyzed 4-MUP to 4-MU- with a negtive charge and blue fluorescence under UV excitation.
+
+2.Under the electric field, 4-MU- moved from cathode well to anode well along the channel.
+
+3.The moving reaction boundary is the result of 4-MU- neutralized the acidic Tris-HCl buffer.
+
+4.The MRB removes in linear as the time goes.
+
+The key point is to design the concentration of the Tris-HCl buffer?
+\end{document}
